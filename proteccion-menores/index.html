@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estándares contra el abuso y explotación sexual infantil (CSAE) · Cofound</title>
+    <meta name="description" content="Política y estándares de Cofound contra el abuso y la explotación sexual infantil (CSAE)." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #0b0b12;
+        --surface: #11111a;
+        --border: rgba(255, 255, 255, 0.08);
+        --text: #ffffff;
+        --text-secondary: rgba(255, 255, 255, 0.68);
+        --text-tertiary: rgba(255, 255, 255, 0.48);
+        --accent: #6366f1;
+        --accent-2: #ec4899;
+        --error: #ef4444;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      body {
+        background-image: radial-gradient(800px circle at 12% 0%, rgba(99, 102, 241, 0.18), transparent 60%),
+          radial-gradient(700px circle at 88% 18%, rgba(236, 72, 153, 0.12), transparent 60%);
+        background-attachment: fixed;
+        min-height: 100vh;
+      }
+      header {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 32px 24px 0;
+      }
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        color: var(--text);
+      }
+      .brand-icon {
+        width: 28px;
+        height: 28px;
+        border-radius: 8px;
+        background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+        display: inline-block;
+      }
+      .brand-name {
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: -0.3px;
+        background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 24px 96px;
+      }
+      h1 {
+        font-size: 36px;
+        line-height: 1.15;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        margin-bottom: 8px;
+      }
+      .updated {
+        color: var(--text-tertiary);
+        font-size: 13px;
+        margin-bottom: 32px;
+      }
+      .lead {
+        font-size: 17px;
+        color: var(--text-secondary);
+        margin-bottom: 32px;
+      }
+      h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 40px 0 12px;
+        letter-spacing: -0.2px;
+      }
+      p {
+        color: var(--text-secondary);
+        margin-bottom: 14px;
+      }
+      ul {
+        color: var(--text-secondary);
+        margin: 8px 0 14px 22px;
+      }
+      ul li {
+        margin-bottom: 6px;
+      }
+      strong {
+        color: var(--text);
+      }
+      a {
+        color: var(--accent);
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+      }
+      a:hover {
+        color: var(--accent-2);
+      }
+      .alert {
+        margin: 24px 0;
+        padding: 18px 20px;
+        background: rgba(239, 68, 68, 0.08);
+        border: 1px solid rgba(239, 68, 68, 0.3);
+        border-radius: 12px;
+      }
+      .alert h3 {
+        color: var(--error);
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        letter-spacing: 0.4px;
+        text-transform: uppercase;
+      }
+      .alert p {
+        color: var(--text);
+        margin: 0;
+      }
+      .contact-card {
+        margin: 24px 0;
+        padding: 20px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+      }
+      .contact-card .row {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 10px 0;
+        border-bottom: 1px solid var(--border);
+      }
+      .contact-card .row:last-child {
+        border-bottom: none;
+      }
+      .contact-card .label {
+        color: var(--text-tertiary);
+        font-size: 13px;
+      }
+      .contact-card .value {
+        color: var(--text);
+        font-weight: 500;
+      }
+      footer {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 0 24px 48px;
+        color: var(--text-tertiary);
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+      footer a {
+        color: var(--text-tertiary);
+        text-decoration: none;
+      }
+      footer a:hover {
+        color: var(--text);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/">
+        <span class="brand-icon"></span>
+        <span class="brand-name">cofound</span>
+      </a>
+    </header>
+
+    <main>
+      <h1>Estándares contra el abuso y la explotación sexual infantil (CSAE)</h1>
+      <p class="updated">Última actualización: 15 de mayo de 2026</p>
+
+      <p class="lead">
+        Cofound mantiene una política de <strong>tolerancia cero</strong> frente a cualquier forma de
+        abuso o explotación sexual infantil (Child Sexual Abuse and Exploitation, CSAE), incluida la
+        creación, posesión, distribución, promoción o solicitud de material de abuso sexual infantil
+        (CSAM). Esta página documenta nuestros estándares públicos, en cumplimiento del
+        <em>Developer Program Policy</em> de Google Play y la legislación aplicable.
+      </p>
+
+      <div class="alert">
+        <h3>Si encontraste contenido CSAE</h3>
+        <p>
+          Reportalo de inmediato a
+          <a href="mailto:safety@cofound.lat" style="color: #fff;">safety@cofound.lat</a>.
+          Si presenciás peligro inmediato para una persona menor de edad, contactá a las
+          autoridades locales antes que a nosotros.
+        </p>
+      </div>
+
+      <h2>1. Alcance de la política</h2>
+      <p>
+        Esta política aplica a todos los usuarios de la aplicación móvil Cofound, del sitio web
+        <a href="/">cofound.lat</a>, y de cualquier producto operado por Nex Solutions Labs.
+        Aplica al contenido público y privado generado en la plataforma: perfiles, mensajes,
+        imágenes, enlaces y cualquier otro recurso compartido.
+      </p>
+
+      <h2>2. Edad mínima</h2>
+      <ul>
+        <li>El uso de Cofound está restringido a personas <strong>mayores de 18 años</strong>.</li>
+        <li>
+          Las cuentas que detectemos pertenecientes a personas menores de edad serán suspendidas
+          de forma inmediata y permanente.
+        </li>
+        <li>
+          No solicitamos, recopilamos ni alojamos información personal de menores de edad. Si
+          identificamos que recolectamos datos de una persona menor de edad por error, eliminaremos
+          esos datos sin demora.
+        </li>
+      </ul>
+
+      <h2>3. Conducta prohibida</h2>
+      <p>Está estrictamente prohibido, y constituye motivo de suspensión inmediata y reporte a las autoridades:</p>
+      <ul>
+        <li>Subir, compartir o solicitar imágenes, videos o cualquier representación de menores en contextos sexuales o de explotación.</li>
+        <li>Usar la plataforma para contactar a personas menores de edad con fines sexuales (grooming).</li>
+        <li>Compartir enlaces, identificadores o cualquier referencia a fuentes de contenido CSAM dentro o fuera de la plataforma.</li>
+        <li>Negociar, vender o intercambiar acceso a CSAM.</li>
+        <li>Reclutar o solicitar a menores para participar en cualquier actividad sexual.</li>
+        <li>Glorificar, normalizar o promocionar la explotación sexual infantil.</li>
+      </ul>
+
+      <h2>4. Detección y moderación</h2>
+      <p>
+        Aplicamos un enfoque combinado para detectar y prevenir CSAE:
+      </p>
+      <ul>
+        <li>
+          <strong>Verificación de identidad opcional</strong> y validación de edad al registrarse
+          mediante proveedores externos confiables.
+        </li>
+        <li>
+          <strong>Hashing de imágenes</strong> contra bases de datos conocidas de CSAM (PhotoDNA y
+          fuentes equivalentes mantenidas por organismos como el National Center for Missing &
+          Exploited Children — NCMEC).
+        </li>
+        <li>
+          <strong>Reglas automatizadas</strong> de detección de patrones de grooming en texto.
+        </li>
+        <li>
+          <strong>Revisión humana</strong> de todo reporte recibido en un plazo objetivo de 48 horas.
+        </li>
+        <li>
+          <strong>Cooperación proactiva</strong> con autoridades y organizaciones de protección
+          infantil cuando se identifica contenido o conducta CSAE.
+        </li>
+      </ul>
+
+      <h2>5. Cómo reportar</h2>
+      <p>Cualquier persona puede reportar contenido o conducta sospechosa por estos canales:</p>
+
+      <div class="contact-card">
+        <div class="row">
+          <span class="label">Correo dedicado</span>
+          <span class="value">safety@cofound.lat</span>
+        </div>
+        <div class="row">
+          <span class="label">Desde la app</span>
+          <span class="value">Perfil → Reportar usuario</span>
+        </div>
+        <div class="row">
+          <span class="label">Respuesta inicial</span>
+          <span class="value">≤ 48 horas hábiles</span>
+        </div>
+      </div>
+
+      <p>
+        En el reporte, incluí: identificadores del usuario o contenido (nombre de usuario, URL,
+        captura de pantalla), descripción de lo observado y cualquier evidencia adicional. Aceptamos
+        reportes anónimos.
+      </p>
+
+      <h2>6. Acciones que tomamos</h2>
+      <ul>
+        <li>Suspensión inmediata de la cuenta involucrada mientras dura la investigación.</li>
+        <li>Eliminación permanente del contenido detectado.</li>
+        <li>Conservación de la evidencia necesaria para el cumplimiento legal.</li>
+        <li>
+          Reporte obligatorio a las autoridades competentes y a organizaciones internacionales
+          como NCMEC (National Center for Missing & Exploited Children) cuando aplique, conforme
+          a la legislación de cada jurisdicción.
+        </li>
+        <li>Cierre permanente y bloqueo de dispositivo de la cuenta infractora.</li>
+      </ul>
+
+      <h2>7. Cumplimiento legal</h2>
+      <p>
+        Cofound cumple con la legislación aplicable contra CSAE en las jurisdicciones donde opera,
+        incluyendo (sin limitarse a):
+      </p>
+      <ul>
+        <li>Colombia — Ley 1336 de 2009 y Código Penal arts. 218 y siguientes.</li>
+        <li>México — Ley General de los Derechos de Niñas, Niños y Adolescentes; Código Penal Federal arts. 200-204.</li>
+        <li>Argentina — Ley 26.388 y Código Penal art. 128.</li>
+        <li>Brasil — Estatuto da Criança e do Adolescente (Lei 8.069/1990) arts. 240-241.</li>
+        <li>Chile — Ley 19.927 sobre delitos de pornografía infantil.</li>
+        <li>Perú — Código Penal arts. 183 y siguientes.</li>
+        <li>Estados Unidos — 18 U.S.C. § 2258A (reporte obligatorio a NCMEC para servicios accesibles desde EE. UU.).</li>
+      </ul>
+
+      <h2>8. Mejora continua</h2>
+      <p>
+        Revisamos y actualizamos esta política al menos una vez al año, y siempre que detectemos
+        un nuevo vector de abuso, un cambio regulatorio relevante, o recibamos retroalimentación
+        de las autoridades. La fecha al inicio de esta página refleja la última revisión.
+      </p>
+
+      <h2>9. Recursos para víctimas y familias</h2>
+      <ul>
+        <li>
+          <a href="https://report.cybertip.org" target="_blank" rel="noopener noreferrer">
+            CyberTipline (NCMEC)
+          </a>
+          — línea internacional para reportar explotación infantil.
+        </li>
+        <li>
+          <a href="https://www.icmec.org" target="_blank" rel="noopener noreferrer">
+            International Centre for Missing & Exploited Children (ICMEC)
+          </a>
+          — recursos por país.
+        </li>
+        <li>
+          <a href="https://www.te-protejo.org" target="_blank" rel="noopener noreferrer">
+            Te Protejo
+          </a>
+          — línea virtual contra delitos sexuales en LATAM.
+        </li>
+      </ul>
+
+      <h2>10. Contacto</h2>
+      <p>
+        Para preguntas sobre esta política o sobre cualquier asunto relacionado con seguridad
+        infantil en Cofound, escribí a
+        <a href="mailto:safety@cofound.lat">safety@cofound.lat</a>.
+      </p>
+    </main>
+
+    <footer>
+      <span>© 2026 Cofound · Nex Solutions Labs</span>
+      <span>
+        <a href="/">Inicio</a> · <a href="/terminos/">Términos</a> · <a href="/privacidad/">Privacidad</a>
+      </span>
+    </footer>
+  </body>
+</html>
